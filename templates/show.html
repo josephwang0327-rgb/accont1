@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>{{now}}</h1>
+        <h2>You spend {{amount}} dallor this time</h2>
+        <form method="post" action="{{url_for('accont')}}">
+            <p><button type="post">Press to accont another amount</button></p>
+        </form>
+    </body>
+</html>
