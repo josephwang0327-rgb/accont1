@@ -2,3 +2,4 @@ flask
 datetime
 pandas
 numpy
+waitress
